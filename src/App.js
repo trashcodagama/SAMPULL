@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.jsx';
+import Info from './Info.jsx';
+import bg from './images/wallpaperflare.com_wallpaper.jpg'
+import MediaControlCard from './MediaControl.jsx'
+import Grid from '@mui/material/Grid'; // Grid version 1
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Header />
+      <div className = "Main" style = {{backgroundImage : `url(${bg})`}}>
+        <div className = "Card">
+          <Info/>
+        </div>
+      </div>
+      <section>
+        
+        <h1>
+          CURRENT SELECTIONS
+        </h1>
+        <MediaControlCard/>
+
+      </section>
     </div>
   );
 }

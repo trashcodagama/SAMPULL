@@ -1,0 +1,22 @@
+
+.Track_title{
+    font-family: 'minisystem';
+    color: rgb(255, 255, 255);
+    font-size: large;
+
+}
+.subtitle{
+    font-family: 'minisystem';
+    color:rgb(255, 255, 255);
+    font-size: small;
+    color: orange;
+    margin-top: 2%;
+
+}
+
+.CardBox{
+    background-color: rgb(0, 0, 0);
+}
+.butt{
+    color:blue;
+}
