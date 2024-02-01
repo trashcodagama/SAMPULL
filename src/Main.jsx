@@ -20,25 +20,8 @@ const theme = createTheme({
 export default function Main() {
   return (
     <ThemeProvider theme={theme}>
-      <center><h1>EXPLORE NEW SOUNDS</h1></center>
-      <div>
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            "& > *": {
-              m: 1,
-            },
-          }}
-        >
-          <ButtonGroup size="large" aria-label="large button group">
-            <Button key="one">Loops & Samples</Button>
-            <Button key="two">Acapellas</Button>
-            <Button key="three">Software</Button>,
-          </ButtonGroup>
-        </Box>
-      </div>
+      <center><h1>EXPLORE NEW SOUNDS</h1>
+      </center>
     </ThemeProvider>
   );
 }

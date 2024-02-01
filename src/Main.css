@@ -1,3 +1,8 @@
 h1{
     margin: 1%;
+    color:black;
+}
+.ButtonGroup{
+    width: 100%;
+    justify-content: space-between;
 }

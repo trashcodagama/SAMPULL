@@ -3,10 +3,9 @@
     display:flex;
     justify-content: space-around;
     background-color: black;
+    padding:5%;
 }
 
-.Card{
-    margin: 1%;
-    padding: 1%;
-    background-color: black;
+.WHITE{
+    color: white;
 }
