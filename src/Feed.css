@@ -2,9 +2,11 @@
     background-repeat: no-repeat;
     display:flex;
     justify-content: space-around;
+    background-color: black;
 }
 
 .Card{
     margin: 1%;
     padding: 1%;
+    background-color: black;
 }

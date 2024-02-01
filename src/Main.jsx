@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import { useTheme } from "@mui/material/styles";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import './Main.css'
 
 const theme = createTheme({
   palette: {
@@ -19,6 +20,7 @@ const theme = createTheme({
 export default function Main() {
   return (
     <ThemeProvider theme={theme}>
+      <center><h1>EXPLORE NEW SOUNDS</h1></center>
       <div>
         <Box
           sx={{
