@@ -1,16 +1,30 @@
 import "./Info.css";
-var name = "Vedant";
+import Button from "@mui/material/Button";
+import { useTheme } from "@mui/material/styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-export default function Info(){
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#ff8800",
+    },
+    secondary: {
+      main: "#000000",
+    },
+  },
+});
+
+
+export default function Info(props){
     return(
         <div>
-
-            <h3> Welcome back {name}! Unlock your sonic potential at Sampull! Join the creative wave now!
+            <ThemeProvider theme = {theme}>
+            <h3>{props.description}
             <br/>
             <br/>
-            <button>LMAO</button>
+            <Button>{props.button}</Button>
             </h3>
-            
+            </ThemeProvider>
         </div>
         );
 }

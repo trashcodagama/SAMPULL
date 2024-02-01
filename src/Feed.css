@@ -1,0 +1,10 @@
+.Main{
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: space-around;
+}
+
+.Card{
+    margin: 1%;
+    padding: 1%;
+}

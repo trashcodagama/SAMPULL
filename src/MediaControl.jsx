@@ -39,7 +39,6 @@ const theme = createTheme({
     <Card sx={{ display: 'flex' }}>
       <Box className = "CardBox" sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
-  
             <div className= "Track_title">
 
             SP4CESH1P.wav
