@@ -30,7 +30,7 @@ export default function Info({name, author, src}) {
       <ThemeProvider theme={theme}>
         <center>
           <h3>{name}</h3>
-          <h4>{author}</h4>
+          <h5 className ="ORANGE">{author}</h5>
           <br />
           <br />
           <ReactPlayer

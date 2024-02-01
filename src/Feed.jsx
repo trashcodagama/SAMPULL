@@ -2,32 +2,32 @@ import Info from "./Info.jsx";
 import "./Feed.css";
 import Grid from "@mui/material/Grid";
 import Song from "./music/spaceship.wav"
-import {spaceship} from "./music"
+import {spaceship, nettspend,kencarson ,EP1_01} from "./music"
 const info = [
   {
     name: "SP4CESHIP.wav",
     author: "purpiedurpie",
-    src: {spaceship}
+    src: spaceship
   },
   {
     name: "DR1LL3R.OGG",
     author: "trashcodagama",
-    src: "./music/EP1_01.wav"
+    src: nettspend
   },
   {
     name: "D4C.wav",
     author: "righteous24",
-    src: "./music/nettspend.wav"
+    src: kencarson
   },
   {
     name: "P3NTH0USE.mp3",
     author: "shordywav22",
-    src: "./music/ninow bornw.wav"
+    src: EP1_01
   }
 ];
 
 const feed_info = info.map(el => (
-  <Info subtitle={el.author} name= {el.name} songsrc = {el.src} />
+  <Info author={el.author} name= {el.name} src = {el.src} />
 ))
 export default function Feed() {
   return (
